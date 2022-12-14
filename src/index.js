@@ -129,7 +129,7 @@ export default class TradingViewWidget extends PureComponent {
     withdateranges: false
   };
 
-  containerId = `${CONTAINER_ID}-${Math.random()}`;
+  containerId = CONTAINER_ID;
 
   componentDidMount = () => this.appendScript(this.initWidget);
 
